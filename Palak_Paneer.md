@@ -12,7 +12,8 @@
 - 1 blok feta skåret i tern
 - 2 poser palak (spinat) - kort blanceret og blendet med en smule af kogevandet (sættes på køl direkte bagefter for at bibeholde den voldsomt grønne farve)
 - 3-5 små tomater
-- 1 lime 
+- 1 lime
+- [Paneer](Paneer)
 
 ## Fremgangsmåde:
 - Olie på panden

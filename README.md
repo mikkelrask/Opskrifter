@@ -5,6 +5,7 @@ Hver ret er delt op i forskellige elementer, så de har hver sin opskrift.
 
 Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips.", der således vil bestå af 3 opskrifter; Rimmede kammuslinger, Rodfrugtpuré og Jordskokkechips.
 
+Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er der få af, og disse er således _kun_ markeret med samme "*(V)*", som de vegetariske.
 
 ## Indholdsfortegnelse:
 
@@ -33,8 +34,11 @@ Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger
 - [Mac'N'Cheese (med broccoli og spinat) (V)](macncheese_spinat.md)
 - [Moules Frites](moules_frites.md)
 - [Nemme koldhævede flutes](flutes.md)
+- [Paneer Curry (V)](Paneer Curry (V)
 - [Palak Paneer (V)](Palak_Paneer.md)
-- [Paste Limone (V)](limone.md)
+- [Pasta Limone (V)](limone.md)
+- [Penang Curry (V)](Penang Curry (V)
+- [Spinatlassagne (V)](Spinatlassagne (V)
 - [Thai muslinger](Thai_mussles.md)
 
 
@@ -45,30 +49,31 @@ Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger
 
 ## Enkelt elementer:
 - [Bløddej (Burgerboller, pølsebrød, krydderboller etc.)](Bløddej.md)
-- [Grov chipotle/Øl sennep](ølsennep.md)
-- [Grønkålspuré](grønkålspure.md)
-- [Hjemmelavet sennep](Hjemmelavet_sennep.md)
-- [Maltcrumble a la Kjøbenhavn](maltcrumble.md)
-- [Pommes Anna](Pommes_anna.md)
-- [Pommes Frites (Tripple cooked!)](tripple_cooked_fries.md)
+- [Grov chipotle/Øl sennep](ølsennep.md) (V)
+- [Grønkålspuré (V)](grønkålspure.md)
+- [Hjemmelavet sennep (V)](Hjemmelavet_sennep.md)
+- [Maltcrumble a la Kjøbenhavn](maltcrumble.md) (V)
+- [Paneer (V)](Paneer)
+- [Pommes Anna (V)](Pommes_anna.md)
+- [Pommes Frites (Tripple cooked!)](tripple_cooked_fries.md) (V)
 - [Rillette De Canard Confit - Ande Rilette](Ande_rilette.md)  
 - [Rimmede kammuslinger]()
-- [Rodfrugtpuré](Rodfrugtpuré)
+- [Rodfrugtpuré](Rodfrugtpuré) (V)
 - [Rullepølse](rullepølse.md)
-- [Rygeostcreme](rygeostcreme.md)
-- [Rødkål](Rødkål)
-- [Sauce aux Champignons a la Creme](a_la_creme.md)
-- [Sauce Bearnaise](Sauce_bearnaise.md)
-- [Sauce Choron](Sauce_choron.md)
-- [Sauce Hollandaise](Sauce_hollandaise.md)
-- [Sauce Mousseline](Sauce_mousseline.md)
-- [Sprøde jordskokkechips](Sprøde_jordskokkechips.md)
+- [Rygeostcreme](rygeostcreme.md) (V)
+- [Rødkål](Rødkål) (V)
+- [Sauce aux Champignons a la Creme](a_la_creme.md) (V)
+- [Sauce Bearnaise](Sauce_bearnaise.md) (V)
+- [Sauce Choron](Sauce_choron.md) (V)
+- [Sauce Hollandaise](Sauce_hollandaise.md) (V)
+- [Sauce Mousseline](Sauce_mousseline.md) (V)
+- [Sprøde jordskokkechips](Sprøde_jordskokkechips.md) (V)
 - [Sprødt fiskeskind/"Flæskesvær"](fiskesvær.md)
-- [Tabouleh med friske krydderurter](Tabouleh.md)
-- [Tator Tots](tator_tots.md)
+- [Tabouleh med friske krydderurter](Tabouleh.md) (V)
+- [Tator Tots](tator_tots.md) (V)
 - [Te-røget torsk](røget_torsk.md)
-- [Vol au Vents (Butterdejs "tarteletter")](vol_au_vent.md)
-- [[Szechuan Sauce](Szechuan_sauce.md)
+- [Vol au Vents (Butterdejs "tarteletter")](vol_au_vent.md) (V)
+- [[Szechuan Sauce](Szechuan_sauce.md) (V)
 
 
 # Menuer:
