@@ -15,8 +15,6 @@
 - Smag til med citronsaft, salt og hvid peber.
 
 
-Skulle den skille, kan man tilsætte lidt iskoldt vand og piske kraftigt.
+Skulle den skille, kan man tilsætte lidt iskoldt vand og piske kraftigt. Alternativt piske en blomme mere op (ny gryde), og herefter piske den skilte Hollandaise heri. 
 Serveres helst med det samme, men kan holdes varm over ganske svagt blus i vandbadet. Rør i den af og til.
-Den er fremragende til kogt og stegt fisk. Tilsættes den et par skefulde flødeskum hedder den ”Sauce Mousseline”. Prøv den til nykogte asparges og hør englene synge.
-
-![](images/hollandaise.jpg)
+Den er fremragende til kogt og stegt fisk. Tilsættes den et par skefulde flødeskum hedder den ”[Sauce Mousseline](Sauce_mousseline.md)”. Prøv den til nykogte asparges og hør englene synge.
