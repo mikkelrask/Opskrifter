@@ -7,24 +7,32 @@ Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger
 ## Indholdsfortegnelse:
 
 ## Forretter:
-- [Rimmede kammuslinger med rodfrugtpuŕe og Jordskokkechips](Rimmede_kammuslinger_med_rodfrugtpure_og_Jordskokkechips.md)
-- [Nye kartofler, asparges, røget makrel, tomat og tzaziki](nye_kartofler_asparges_røget_makrel_tomat_tzaziki.md)  
-- [Tarteletter med kylling, kål og kantareller *a la Madet Mere*](tarteletter.md)
 - [Grønne asparges, rygeostcreme og skagensskine](grønne_asparges_rygeost_creme_og_skagensskinke.md)
+- [Nye kartofler, asparges, røget makrel, tomat og tzaziki](nye_kartofler_asparges_røget_makrel_tomat_tzaziki.md)  
+- [Rimmede kammuslinger med rodfrugtpuŕe og Jordskokkechips](Rimmede_kammuslinger_med_rodfrugtpure_og_Jordskokkechips.md)
+- [Skummende suppe med kammuslinger, hasselnødder og jordskokke](skummende_suppe.md)
+- [Tarteletter med kylling, kål og kantareller *a la Madet Mere*](tarteletter.md)
 
 
 ## Hovedretter:
 - [Aglio e Olio (V)](Aglio_e_Olio.md) 
+- [Alfredo (V)](Alfredo)
+- [Boller i karry](Boller_i_karry.md)
 - [Cacio e Pepe (V)](Cacio_e_Pepe.md)
 - [Chili Con Carneval](Chili_con_carneval.md)
 - [Chorizo Biksemad](Chorizo_biksemad.md) 
 - [Cowboy Chili (Frisk Chili Con Carne på lys øl)](cowboy_chili.md)
-- [Daal](Daal)
+- [Daal (V)](Daal)
 - [Fransk Løgsuppe (V)](Fransk_løgsuppe.md)
-- [Halloumi Stroganof](Halloumi_Stroganof.md)
+- [Halloumi Stroganof (V)](Halloumi_Stroganof.md)
 - [Julemedister](Julemedister.md)
+- [Lamb Babacoa](lam_babacoa.md)
+- [Mac'N'Cheese (klassisk) (V)](macncheese.md)
+- [Mac'N'Cheese (med broccoli og spinat) (V)](macncheese_spinat.md)
+- [Moules Frites](moules_frites.md)
 - [Nemme koldhævede flutes](flutes.md)
 - [Palak Paneer (V)](Palak_Paneer.md)
+- [Paste Limone (V)](limone.md)
 - [Thai muslinger](Thai_mussles.md)
 
 
@@ -35,12 +43,16 @@ Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger
 
 ## Enkelt elementer:
 - [Bløddej (Burgerboller, pølsebrød, krydderboller etc.)](Bløddej.md)
+- [Grov chipotle/Øl sennep](ølsennep.md)
+- [Grønkålspuré](grønkålspure.md)
+- [Hjemmelavet sennep](Hjemmelavet_sennep.md)
 - [Maltcrumble a la Kjøbenhavn](maltcrumble.md)
 - [Pommes Anna](Pommes_anna.md)
 - [Pommes Frites (Tripple cooked!)](tripple_cooked_fries.md)
 - [Rillette De Canard Confit - Ande Rilette](Ande_rilette.md)  
 - [Rimmede kammuslinger]()
 - [Rodfrugtpuré](Rodfrugtpuré)
+- [Rullepølse](rullepølse.md)
 - [Rygeostcreme](rygeostcreme.md)
 - [Rødkål](Rødkål)
 - [Sauce aux Champignons a la Creme](a_la_creme.md)
@@ -51,6 +63,7 @@ Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger
 - [Sprøde jordskokkechips](Sprøde_jordskokkechips.md)
 - [Sprødt fiskeskind/"Flæskesvær"](fiskesvær.md)
 - [Tabouleh med friske krydderurter](Tabouleh.md)
+- [Tator Tots](tator_tots.md)
 - [Te-røget torsk](røget_torsk.md)
 - [Vol au Vents (Butterdejs "tarteletter")](vol_au_vent.md)
 - [[Szechuan Sauce](Szechuan_sauce.md)
@@ -59,3 +72,4 @@ Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger
 # Menuer:
 - [Juleaften '16](Juleaften_16.md)
 - [Nytårsaften '16](Nytårsaften_16.md)
+- [Nytårsaften '20](nytårsaften_20.md)
