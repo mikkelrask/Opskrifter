@@ -34,11 +34,11 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Mac'N'Cheese (med broccoli og spinat) (V)](macncheese_spinat.md)
 - [Moules Frites](moules_frites.md)
 - [Nemme koldhævede flutes](flutes.md)
-- [Paneer Curry (V)](Paneer Curry (V.md)
+- [Paneer Curry (V)](Paneer_Curry.md)
 - [Palak Paneer (V)](Palak_Paneer.md)
 - [Pasta Limone (V)](limone.md)
-- [Penang Curry (V)](Penang Curry (V.md)
-- [Spinatlassagne (V)](Spinatlassagne (V.md)
+- [Penang Curry (V)](Penang_Curry.md)
+- [Spinatlassagne (V)](Spinatlassagnew.md)
 - [Thai muslinger](Thai_mussles.md)
 
 
