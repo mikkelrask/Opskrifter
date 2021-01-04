@@ -1,5 +1,7 @@
-(#) Opskrifter
-Min egen opskriftsbog med retter jeg har lavet, og planlagt at lave. Hver ret er delt op i forskellige elementer, så de har hver sin opskrift. 
+# Opskrifter
+Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg har ikke nødvendivis skrevet opskrifterne, men typisk gemmer jeg dem jeg synes er gode, med de forbehold jeg nu synes man bør tage. 
+
+Hver ret er delt op i forskellige elementer, så de har hver sin opskrift. 
 
 Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips.", der således vil bestå af 3 opskrifter; Rimmede kammuslinger, Rodfrugtpuré og Jordskokkechips.
 
