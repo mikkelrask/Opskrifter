@@ -1,5 +1,7 @@
 # Fransk løgsuppe
 
+![Billede](images/løgsuppe.jpg)
+
 ### Ingredienser:
 - 1kg gule løg
 - 250g skalotteløg
@@ -23,4 +25,3 @@ __Bind et klæde op med:__
 - Smag til med sherryeddiken. 
 - I en ildfast skål anretter du suppe med 1 skive brød og revet ost og placerer i midten af ovnen indtil osten er smeltet og gylden. 
 
-![Billede](images/løgsuppe.jpg)
