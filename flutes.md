@@ -1,0 +1,24 @@
+# Koldhævede Flutes
+
+Langtidshævede brød med sprød skorpe og en saftig krumme!
+
+![Billede af koldhævede flutes](images/flutes.png)
+
+### Ingredienser (3-4 stk.)
+- 6 dl vand
+- 550 g tipo 00-mel
+- 100 g rugmel
+- 20 g gær
+- 1 spsk. olivenolie
+- 2 tsk. salt
+
+
+### Fremgangsmåde:
+- Lun vandet en smule og opløs gæret. Opløs herefter saltet og tilsæt olivenolien. Nu skal væsken gerne sættes på en køkkenmaskine, med mindre du har tålmodighed til at banke dejen sammen i 20-25 minutter på håndkraft. Hvis du bruger maskine, kan du blande alle ingredienserne sammen og lade den køre på medium-hastighed i 15-17 minutter. Spæd til med lidt mel, hvis dejen ikke begynder at slippe skålen en smule efter 6-8 minutter.
+- Skrab dejen ud og læg den i en skål, der er meget større end massen - der skal være plads til hævningen! Sørg for, at skålen er smurt godt ind i olivenolie og læg dejen i. Sæt skålen i køleskabet - minimum 10-12 timer. Gerne længere, hvis man eksempelvis sætter den ind natten over.
+- Når brødet har hævet færdigt på køl, skraber du dejen ud på et meldrysset bord. Del dejen i 3 eller 4 portioner alt efter størrelsesønske og klem det forsigtigt sammen med lidt rullebevægelser. Drys dem med mel og læg dem på en bageplade med bagepapir. Nu skal de hæve i 45 minutter til 1 time ved stuetemperatur for at vågne lidt op igen.
+- Tænd ovnen på 250 grader. Tag en saks og klip små mønstre i hver flute. Bag dem efterfølgende i ovnen ved 15-16 minutter, indtil overfladen er meget mørk og sprød.
+- Lad dem køle af på en rist og opbevar dem i en papirspose eller et viskestykke - de kan sagtens fryses.
+Enjoy!
+
+
