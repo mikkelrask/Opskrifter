@@ -1,5 +1,6 @@
 # Aglio e Olio
 
+![Billede af Aglio e Olio](/home/raske/Documents/Opskrifter/images/aglio_e_olio.webp)
 Server som den er til en forret eller som tilbehør til en anden skøn ret – se forslag nedenfor opskriften
 
 
@@ -25,4 +26,3 @@ Server som den er til en forret eller som tilbehør til en anden skøn ret – s
 - Chilien er valgfri, nogen laver aglio e olie med og andre uden.
 - Indimellem laver jeg ‘saucen’ ekstra cremet ved at tilsætte en dl af kogevandet fra pastaen. Så koger jeg lige pastaen 30 sekunder for kort tid. Skruer op for panden med olie, hvidløg og chili lige inden jeg kommer 1 dl pastavand på. Lader det dampe en anelse ind, kommer pasta og parmesan eller peccorino på panden rører rundt og servere – vupti, så er retten lidt en anelse ekstra cremet.
 
-![Billede af Aglio e Olio](/home/raske/Documents/Opskrifter/images/aglio_e_olio.webp)
