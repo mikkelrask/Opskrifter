@@ -1,5 +1,6 @@
 # Thai Muslinger
 
+![Billede af Thai Muslinger](images/thai_mussles.jpg)
 
 ### Ingredienser:
 - 1 kg friske blåmuslinger
@@ -26,4 +27,3 @@
 
 Selvom det er et thai take på klassisk dampede muslinger, kan de stadig sagtens serveres med [Tripple Cooked Fries](Tripple_cooked_fries.md) som en thai '[Moules Frites](Moules_frites.md)'
 
-![Billede af Thai Muslinger](images/thai_mussles.jpg)

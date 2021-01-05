@@ -1,8 +1,7 @@
 # Lamb Babacoa (Slow cooker)
+![Lamb Babacoa tacos](images/babacoa_tacos.jpg)
 
 __Babacoa er en oldgammel tilberedningsteknik fra carribbien hvor man man pakkede store stykker kød (gerne lam) ind i bananblade, og langtidstilberedte dem på gløder, og 100% tildækket af fx. sand/jord. Det er den teknik der senere har udviklet sig til en vaskeægte BBQ, hvorfra navnet selvfølgeligt også stammer fra. Det giver, ligesom når du laver pulled pork på weberen, et meget mørt og saftigt stykke kød, med et goddaw af smag. Ud over at retten i sig selv tager noget tid at tilberede (ikke at forberede), skal man også på jagt efter chipotle i adobolage - jeg plejer at bestille forud på chilihouse.dk__
-
-![](images/babcoa_tacos.jpg)
 
 
 ### Ingredienser:
@@ -23,4 +22,4 @@ Hak løg, chili, chipolte, (halvdelen af) korianderen og tilfør det sammen med 
 
 Når tiden er gået, står du klar med en 225 grader varm ovn. Overfør dine kødstykker til et ildfast fad, træk kødet fra hinanden med 2 gafler, strø det med lidt krydderi, påfør noget af lagen fra slowcookeren og slut af med et tyndt(!!!) lag sukker, bland og sæt i ovnen 5-10 minutter. 
 
-Serveres evt. som taco med masser af lime og koriander, og en god salsa.
+Serveres evt. som taco med masser af lime og koriander, og syltede rødløg.

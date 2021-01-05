@@ -1,9 +1,9 @@
 # Opskrifter
-Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg har ikke nødvendivis skrevet opskrifterne, men typisk gemmer jeg dem jeg synes er gode, med de forbehold jeg nu synes man bør tage. 
+Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg har ikke nødvendivis _skrevet_ opskrifterne, men typisk gemmer jeg dem jeg synes er gode, med de forbehold eventuelle forbedringer jeg nu synes man bør tage. 
 
-Hver ret er delt op i forskellige elementer, så de har hver sin opskrift. 
+Hvis en ret har flere elementer bliver den delt op i de forskellige elementer, så de har hver sin opskrift. 
 
-Første eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips.", der således vil bestå af 3 opskrifter; Rimmede kammuslinger, Rodfrugtpuré og Jordskokkechips.
+Eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips.", der således vil bestå af 3 opskrifter; [Rimmede kammuslinger](Rimmede_kammuslinger.md), [Rodfrugtpuré](Rodfrugtpuré.md) og [Jordskokkechips](Sprøde_jordskokkechips.md).
 
 Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er der få af, og disse er således _kun_ markeret med samme "*(V)*", som de vegetariske.
 
@@ -22,24 +22,26 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Alfredo (V)](Alfredo)
 - [Boller i karry](Boller_i_karry.md)
 - [Cacio e Pepe (V)](Cacio_e_Pepe.md)
+- [Chick-Free Masala](chickfree_masala.md) (V)
 - [Chili Con Carneval](Chili_con_carneval.md)
 - [Chorizo Biksemad](Chorizo_biksemad.md) 
 - [Cowboy Chili (Frisk Chili Con Carne på lys øl)](cowboy_chili.md)
 - [Daal (V)](Daal)
 - [Fransk Løgsuppe (V)](Fransk_løgsuppe.md)
 - [Halloumi Stroganof (V)](Halloumi_Stroganof.md)
-- [Julemedister](Julemedister.md)
 - [Lamb Babacoa](lam_babacoa.md)
 - [Mac'N'Cheese (klassisk) (V)](macncheese.md)
 - [Mac'N'Cheese (med broccoli og spinat) (V)](macncheese_spinat.md)
 - [Moules Frites](moules_frites.md)
-- [Nemme koldhævede flutes](flutes.md)
 - [Paneer Curry (V)](Paneer_Curry.md)
 - [Palak Paneer (V)](Palak_Paneer.md)
 - [Pasta Limone (V)](limone.md)
 - [Penang Curry (V)](Penang_Curry.md)
+- [Sous Vide Bøfsandwich](Sous_vide_bøfsandwich.md)
+- [Sous Vide Hot Dog](Sous_vide_hot_dog.md)
 - [Spinatlassagne (V)](Spinatlassagnew.md)
 - [Thai muslinger](Thai_mussles.md)
+- [Veggie Masala](veggie_masala.md) (V)
 
 
 ## Desserter:
@@ -52,28 +54,34 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Grov chipotle/Øl sennep](ølsennep.md) (V)
 - [Grønkålspuré (V)](grønkålspure.md)
 - [Hjemmelavet sennep (V)](Hjemmelavet_sennep.md)
+- [Julemedister](Julemedister.md)
 - [Maltcrumble a la Kjøbenhavn](maltcrumble.md) (V)
+- [Nemme koldhævede flutes](flutes.md)
 - [Paneer (V)](Paneer)
 - [Pommes Anna (V)](Pommes_anna.md)
 - [Pommes Frites (Tripple cooked!)](tripple_cooked_fries.md) (V)
 - [Rillette De Canard Confit - Ande Rilette](Ande_rilette.md)  
 - [Rimmede kammuslinger]()
+- [Ristede løg](Ristede_løg.md) (V)
 - [Rodfrugtpuré](Rodfrugtpuré) (V)
 - [Rullepølse](rullepølse.md)
 - [Rygeostcreme](rygeostcreme.md) (V)
 - [Rødkål](Rødkål) (V)
-- [Sauce aux Champignons a la Creme](a_la_creme.md) (V)
 - [Sauce Bearnaise](Sauce_bearnaise.md) (V)
 - [Sauce Choron](Sauce_choron.md) (V)
 - [Sauce Hollandaise](Sauce_hollandaise.md) (V)
 - [Sauce Mousseline](Sauce_mousseline.md) (V)
+- [Sauce aux Champignons a la Creme](a_la_creme.md) (V)
+- [Shitake "bacon"](shitake_bacon.md) (V)
 - [Sprøde jordskokkechips](Sprøde_jordskokkechips.md) (V)
 - [Sprødt fiskeskind/"Flæskesvær"](fiskesvær.md)
 - [Tabouleh med friske krydderurter](Tabouleh.md) (V)
 - [Tator Tots](tator_tots.md) (V)
 - [Te-røget torsk](røget_torsk.md)
+- [Veggie Cowboy-toast](veggie_toast.md) (V)
 - [Vol au Vents (Butterdejs "tarteletter")](vol_au_vent.md) (V)
 - [[Szechuan Sauce](Szechuan_sauce.md) (V)
+- [Ølsyltede Rødløg](Ølsyltede_rødløg.md) (V)
 
 
 # Menuer:
