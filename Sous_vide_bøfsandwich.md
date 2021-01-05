@@ -1,6 +1,11 @@
 # Sous Vide Bøfsandwich
 ![Egobøf <3](images/sous_vide_bøfsanner.jpg)
+
 En egoopskrift på __*én*__ bøfsandwich. Det er lige mig!
+
+__Forberedelstid:__ 30 minutter
+__Tilberedningstid:__ 1 time 30 min
+__Tid i alt:__ 2 timer
 
 ### Ingredienser:
 - 1 løg

@@ -3,7 +3,7 @@ Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg 
 
 Hvis en ret har flere elementer bliver den delt op i de forskellige elementer, så de har hver sin opskrift. 
 
-Eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips.", der således vil bestå af 3 opskrifter; [Rimmede kammuslinger](Rimmede_kammuslinger.md), [Rodfrugtpuré](Rodfrugtpuré.md) og [Jordskokkechips](Sprøde_jordskokkechips.md).
+Eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips.", der således vil bestå af 3 opskrifter; [Rimmede kammuslinger(Rimmede_kammuslinger.md), [Rodfrugtpuré](Rodfrugtpuré.md) og [Jordskokkechips](Sprøde_jordskokkechips.md).
 
 Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er der få af, og disse er således _kun_ markeret med samme "*(V)*", som de vegetariske.
 
@@ -33,8 +33,8 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Mac'N'Cheese (klassisk) (V)](macncheese.md)
 - [Mac'N'Cheese (med broccoli og spinat) (V)](macncheese_spinat.md)
 - [Moules Frites](moules_frites.md)
-- [Paneer Curry (V)](Paneer_Curry.md)
 - [Palak Paneer (V)](Palak_Paneer.md)
+- [Paneer Curry (V)](Paneer_Curry.md)
 - [Pasta Limone (V)](limone.md)
 - [Penang Curry (V)](Penang_Curry.md)
 - [Sous Vide Bøfsandwich](Sous_vide_bøfsandwich.md)
@@ -61,7 +61,7 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Pommes Anna (V)](Pommes_anna.md)
 - [Pommes Frites (Tripple cooked!)](tripple_cooked_fries.md) (V)
 - [Rillette De Canard Confit - Ande Rilette](Ande_rilette.md)  
-- [Rimmede kammuslinger]()
+- [Rimmede kammuslinger](Rimmede_kammuslinger.md)
 - [Ristede løg](Ristede_løg.md) (V)
 - [Rodfrugtpuré](Rodfrugtpuré) (V)
 - [Rullepølse](rullepølse.md)
