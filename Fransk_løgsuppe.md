@@ -1,4 +1,5 @@
-# Fransk løgsuppe
+% Fransk løgsuppe
+% Mikkel Rask
 
 ![Billede](images/løgsuppe.jpg)
 

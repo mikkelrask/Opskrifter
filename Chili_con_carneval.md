@@ -3,17 +3,17 @@ __En ret jeg har gjort meget i at gøre til min egen har altid været Chili Con 
 
 ### Ingredienser:
 - 2 kg. hakket oksekød (el. okseklumper hvis dette foretrækkes. Begge dele gerne med en okay fedt procent!)
-- 2 store finthakkede løg
+- 3 store finthakkede løg
 - 3 fed hvidløg
 - 80 gram god, mørk chokolade 
-- 1 dl mørk øl (gerne en Ale eller Stout)
-- Saft fra 2-3 limefrugter
+- 2 dl mørk øl (gerne en Ale eller Stout)
+- Saft fra 2-3 økologiske limefrugter
 - 15-20 groft hakkede tomater
 - 2 ds chili bønner (røde kidney bønner i chili lage)
 - 1 ds Chipotle i Adobo lage
 - 1 stor dåse tomatpure
 - 2 spsk brun farin
-- 3-5 tsk stødt spidskommen
+- 3 spsk stødt spidskommen
 - 2-3 hele habanero (hakket)
 - 3-4 hele syltede Jalapeno
 - Salt

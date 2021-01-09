@@ -1,9 +1,9 @@
 # Opskrifter
-Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg har ikke nødvendivis _skrevet_ opskrifterne, men typisk gemmer jeg dem jeg synes er gode, med de forbehold eventuelle forbedringer jeg nu synes man bør tage. 
+Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg har ikke nødvendivis _skrevet_ opskrifterne, men typisk gemmer jeg dem jeg synes er gode, med de forbehold og eventuelle forbedringer jeg nu synes man bør tage. 
 
 Hvis en ret har flere elementer bliver den delt op i de forskellige elementer, så de har hver sin opskrift. 
 
-Eksempel kunne være at der en samlet opskrift for "Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips.", der således vil bestå af 3 opskrifter; [Rimmede kammuslinger(Rimmede_kammuslinger.md), [Rodfrugtpuré](Rodfrugtpuré.md) og [Jordskokkechips](Sprøde_jordskokkechips.md).
+Eksempel kunne være at der en samlet opskrift for "[Rimmede kammuslinger med rodfrugtpuŕe og jordskokkechips](Rimmede_kammuslinger_med_rodfrugtpure_og_Jordskokkechips.md).", der således vil bestå af 3 opskrifter; [Rimmede kammuslinger](Rimmede_kammuslinger.md) , [Rodfrugtpuré](Rodfrugtpuré.md) og [Jordskokkechips](Sprøde_jordskokkechips.md).
 
 Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er der få af, og disse er således _kun_ markeret med samme "*(V)*", som de vegetariske.
 
@@ -19,14 +19,14 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 
 ## Hovedretter:
 - [Aglio e Olio (V)](Aglio_e_Olio.md) 
-- [Alfredo (V)](Alfredo)
+- [Alfredo (V)](Alfredo.md)
 - [Boller i karry](Boller_i_karry.md)
 - [Cacio e Pepe (V)](Cacio_e_Pepe.md)
 - [Chick-Free Masala](chickfree_masala.md) (V)
 - [Chili Con Carneval](Chili_con_carneval.md)
 - [Chorizo Biksemad](Chorizo_biksemad.md) 
 - [Cowboy Chili (Frisk Chili Con Carne på lys øl)](cowboy_chili.md)
-- [Daal (V)](Daal)
+- [Daal](Daalmd) (V)
 - [Fransk Løgsuppe (V)](Fransk_løgsuppe.md)
 - [Halloumi Stroganof (V)](Halloumi_Stroganof.md)
 - [Lamb Babacoa](lam_babacoa.md)
@@ -56,7 +56,7 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Hjemmelavet sennep (V)](Hjemmelavet_sennep.md)
 - [Julemedister](Julemedister.md)
 - [Maltcrumble a la Kjøbenhavn](maltcrumble.md) (V)
-- [Nemme koldhævede flutes](flutes.md)
+- [Nemme koldhævede flutes](flutes.md) (V)
 - [Paneer (V)](Paneer)
 - [Pommes Anna (V)](Pommes_anna.md)
 - [Pommes Frites (Tripple cooked!)](tripple_cooked_fries.md) (V)
@@ -80,7 +80,7 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Te-røget torsk](røget_torsk.md)
 - [Veggie Cowboy-toast](veggie_toast.md) (V)
 - [Vol au Vents (Butterdejs "tarteletter")](vol_au_vent.md) (V)
-- [[Szechuan Sauce](Szechuan_sauce.md) (V)
+- [Szechuan Sauce](Szechuan_sauce.md) (V)
 - [Ølsyltede Rødløg](Ølsyltede_rødløg.md) (V)
 
 
