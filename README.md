@@ -47,6 +47,7 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 ## Desserter:
 - ["Københavnerstang"](Københavnerstang.md)
 - [Mokka Panna Cotta](Panna_Cotta_Mokka.md)
+- Champagne Sorbét
 
 
 ## Enkelt elementer:
@@ -59,6 +60,7 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Nemme koldhævede flutes](flutes.md) (V)
 - [Paneer (V)](Paneer)
 - [Pommes Anna (V)](Pommes_anna.md)
+- [Pommes Anna Fries](pommes_anna_fries.md) (V)
 - [Pommes Frites (Tripple cooked!)](tripple_cooked_fries.md) (V)
 - [Rillette De Canard Confit - Ande Rilette](Ande_rilette.md)  
 - [Rimmede kammuslinger](Rimmede_kammuslinger.md)
