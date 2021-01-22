@@ -28,7 +28,7 @@ Rimmede kammuslinger smager sødt og frisk af hav. Sammen med den bløde rodfrug
 
 
 ### Fremgangsmåder:
-- [Rimmede kammuslinger](Rimmede kammuslinger)
+- [Rimmede kammuslinger](Rimmede_kammuslinger.md)
 - [Rodfrugtpuré](Rodfrugtpuré)
 - [Sprøde jordskokkechips](Sprøde_jordskokkechips.md)
 
