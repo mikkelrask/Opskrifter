@@ -1,4 +1,4 @@
-# Opskrifter
+[#](#) Opskrifter
 Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg har ikke nødvendivis _skrevet_ opskrifterne, men typisk gemmer jeg dem jeg synes er gode, med de forbehold og eventuelle forbedringer jeg nu synes man bør tage. 
 
 Hvis en ret har flere elementer bliver den delt op i de forskellige elementer, så de har hver sin opskrift. 
@@ -48,10 +48,13 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - ["Københavnerstang"](Københavnerstang.md)
 - [Mokka Panna Cotta](Panna_Cotta_Mokka.md)
 - Champagne Sorbét
+- [Passionfrugt Sauce](Passionfrugtsauce.md)
 
 
 ## Enkelt elementer:
 - [Bløddej (Burgerboller, pølsebrød, krydderboller etc.)](Bløddej.md)
+- [Flæskesteg](Flæskesteg.md)
+- [Flæskesvær](Flæskesteg.md#Flæskesvær:)
 - [Grov chipotle/Øl sennep](ølsennep.md) (V)
 - [Grønkålspuré (V)](grønkålspure.md)
 - [Hjemmelavet sennep (V)](Hjemmelavet_sennep.md)
@@ -78,8 +81,10 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Sprøde jordskokkechips](Sprøde_jordskokkechips.md) (V)
 - [Sprødt fiskeskind/"Flæskesvær"](fiskesvær.md)
 - [Tabouleh med friske krydderurter](Tabouleh.md) (V)
+- [Tart Flambee](Tart_Flambee.md)
 - [Tator Tots](tator_tots.md) (V)
 - [Te-røget torsk](røget_torsk.md)
+- [Tærtedej](Tærtedej)
 - [Veggie Cowboy-toast](veggie_toast.md) (V)
 - [Vol au Vents (Butterdejs "tarteletter")](vol_au_vent.md) (V)
 - [Szechuan Sauce](Szechuan_sauce.md) (V)
