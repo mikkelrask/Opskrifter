@@ -54,7 +54,7 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 ## Enkelt elementer:
 - [Bløddej (Burgerboller, pølsebrød, krydderboller etc.)](Bløddej.md)
 - [Flæskesteg](Flæskesteg.md)
-- [Flæskesvær](Flæskesteg.md#Flæskesvær:)
+- [Flæskesvær](Flæskesteg.md#Flæskesvær)
 - [Grov chipotle/Øl sennep](ølsennep.md) (V)
 - [Grønkålspuré (V)](grønkålspure.md)
 - [Hjemmelavet sennep (V)](Hjemmelavet_sennep.md)
