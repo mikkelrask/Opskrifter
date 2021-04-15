@@ -73,6 +73,7 @@ Vegetariske retter er noteret med et "*(V)*" efter dem. Veganske elementer er de
 - [Rygeostcreme](rygeostcreme.md) (V)
 - [Rødkål](Rødkål) (V)
 - [Sauce Bearnaise](Sauce_bearnaise.md) (V)
+- [Suace Bearnaise (Thomas Herman's) (V)](hermansbearnaise.md)
 - [Sauce Choron](Sauce_choron.md) (V)
 - [Sauce Hollandaise](Sauce_hollandaise.md) (V)
 - [Sauce Mousseline](Sauce_mousseline.md) (V)
