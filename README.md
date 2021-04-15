@@ -1,4 +1,5 @@
 [#](#) Opskrifter
+
 Min egen opskriftsbog med retter jeg har lavet, og _planlagt at lave_! Dvs. jeg har ikke nødvendivis _skrevet_ opskrifterne, men typisk gemmer jeg dem jeg synes er gode, med de forbehold og eventuelle forbedringer jeg nu synes man bør tage. 
 
 Hvis en ret har flere elementer bliver den delt op i de forskellige elementer, så de har hver sin opskrift. 
