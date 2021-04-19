@@ -1,5 +1,7 @@
 # Bearnaise Essens (Restaurant Remouladen's opskrift)
 
+** OBS - DENNE OPSKRIFT GIVER ~4-500cl essens, altså nok til rigtig mange saucer!  **
+
 ### Ingredienser.
 - 325 g Estragon
 - 175 g Kørvel
