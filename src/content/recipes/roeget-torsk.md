@@ -2,6 +2,7 @@
 title: Te-Røget Torsk
 description: Saltet torskefilet koldrøget over te, ris og rørsukker.
 draft: false
+image: smoked-halibut.jpg
 tags:
   - forret
   - fisk

@@ -2,6 +2,7 @@
 title: Tator Tots
 description: Hjemmelavede kartoffelboller med parmesan og persille, paneret og friturestegt sprøde.
 draft: false
+image: tater-tots.webp
 tags:
   - tilbehør
   - vegetar

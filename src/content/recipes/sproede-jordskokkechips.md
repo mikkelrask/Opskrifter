@@ -2,6 +2,7 @@
 title: Sprøde Jordskokkechips
 description: Tyndskårne jordskokker friturestegt til sprøde, gyldne chips.
 draft: false
+image: jordskokkechips.jpg
 tags:
   - tilbehør
   - vegetar

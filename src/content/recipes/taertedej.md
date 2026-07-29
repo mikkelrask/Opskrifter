@@ -2,6 +2,7 @@
 title: Tærtedej
 description: Klassisk mørdej med koldt smør, klar til at forbages og fyldes.
 draft: false
+image: taertedej.jpg
 tags:
   - tilbehør
   - bagværk

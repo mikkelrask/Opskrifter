@@ -2,6 +2,7 @@
 title: Rygeostcreme
 description: Cremet sauce presset af rygeost og fløde, med en let syrlig citronnote.
 draft: false
+image: rygeostcreme.jpg
 tags:
   - tilbehør
   - sauce

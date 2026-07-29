@@ -2,6 +2,7 @@
 title: Rimmede Kammuslinger
 description: Kammuslinger saltmodnet et døgn med salt og sukker — sødt og friskt af hav.
 draft: false
+image: rimmet-kammusling.jpg
 tags:
   - forret
   - skaldyr

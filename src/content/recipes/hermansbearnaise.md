@@ -2,6 +2,7 @@
 title: Thomas Herman's Bearnaise Sauce
 description: Thomas Herman's version af den klassiske bearnaisesauce, med en hjemmelavet essens fra bunden.
 draft: false
+image: bearnaise-sauce.jpg
 tags:
   - tilbehør
   - sauce

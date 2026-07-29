@@ -2,6 +2,7 @@
 title: Rimmet kammuslinger med rodfrugtpuré og jordskokkechips
 description: Sødt kammusling-rimmet med blød rodfrugtpuré og sprøde jordskokkechips — en luksuriøs forret til festlige lejligheder.
 draft: false
+image: rimmede-kammuslinger.jpg
 tags:
   - forret
   - skaldyr

@@ -1,7 +1,8 @@
 ---
-title: Sprødt fiskeskind (Fiskesvær)
+title: Sprødt fiskeskind ("Fiskesvær")
 description: Fiskeskind blancheret og frituresteget sprødt — en knasende garniture til fiskeretter.
 draft: false
+image: fiskeskind.webp
 tags:
   - tilbehør
   - fisk
