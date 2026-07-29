@@ -1,6 +1,7 @@
 ---
 title: Ristede Løg
 description: Melvendte, sprødstegte løgringe — perfekt topping til hotdog og spegepølse.
+image: ristede-loeg.webp
 draft: false
 tags:
   - tilbehør

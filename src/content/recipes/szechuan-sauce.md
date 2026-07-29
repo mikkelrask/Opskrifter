@@ -2,6 +2,7 @@
 title: Szechuan Sauce
 description: Skarp og syrlig asiatisk sauce på hvidløg, sriracha og sakè.
 draft: false
+image: szechuan-sauce.jpg
 tags:
   - tilbehør
   - sauce

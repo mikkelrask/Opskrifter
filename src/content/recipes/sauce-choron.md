@@ -2,6 +2,7 @@
 title: Sauce Choron
 description: En variant af Sauce Bearnaise, hvor estragon og essens erstattes af indkogt tomat.
 draft: false
+image: sauce-choron.jpg
 tags:
   - tilbehør
   - sauce

@@ -2,6 +2,7 @@
 title: Ølsyltede Rødløg
 description: Hurtigsyltede rødløg trukket i øl, eddike og sukker — perfekte til hotdogs.
 draft: false
+image: roedloeg.webp
 tags:
   - tilbehør
   - vegetar

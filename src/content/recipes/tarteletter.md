@@ -2,6 +2,7 @@
 title: Tarteletter med kylling, kål og kantareller
 description: Klassiske tarteletter fyldt med kylling, kantareller og grønkål i en cremet sennepssauce.
 draft: false
+image: tarteletter.jpg
 tags:
   - forret
   - klassiker

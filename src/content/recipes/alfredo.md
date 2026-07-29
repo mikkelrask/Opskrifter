@@ -2,6 +2,7 @@
 title: Pasta Alfredo
 description: Cremet pastaret med parmesan, fløde og smør — en hurtig klassiker.
 draft: false
+image: pasta-alfredo.jpg
 tags:
   - hovedret
   - vegetar

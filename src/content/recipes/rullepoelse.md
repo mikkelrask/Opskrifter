@@ -2,6 +2,7 @@
 title: Rullepølse
 description: Krydret, saltet og kogt svineslag presset og skåret i tynde skiver — en dansk klassiker på rugbrødet.
 draft: false
+image: Rullepoelse.png
 tags:
   - tilbehør
   - svinekød

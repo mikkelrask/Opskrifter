@@ -2,6 +2,7 @@
 title: Tabouleh
 description: Frisk salat af bulgur, masser af persille og mynte, tomat og citron.
 draft: false
+image: tabouleh.jpg
 tags:
   - tilbehør
   - vegetar

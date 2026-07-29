@@ -2,6 +2,7 @@
 title: Rødkål
 description: Klassisk syltet rødkål med æbleeddike, balsamico og ribsgelé — en fast del af den danske julemiddag.
 draft: false
+image: roedkaal.jpg
 tags:
   - tilbehør
   - vegetar

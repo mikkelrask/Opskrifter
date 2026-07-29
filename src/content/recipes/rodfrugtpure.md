@@ -2,6 +2,7 @@
 title: Rodfrugtpuré
 description: Blød puré af knoldselleri og persillerod, jævnet med smør og fløde.
 draft: false
+image: rodfrugtspure.jpg
 tags:
   - tilbehør
   - vegetar
