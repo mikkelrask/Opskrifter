@@ -1,0 +1,20 @@
+---
+import type { CatalogItem } from '../utils/catalog';
+import RecipeCard from './RecipeCard.astro';
+
+interface Props {
+  items: CatalogItem[];
+}
+
+const { items } = Astro.props;
+---
+
+{
+  items.length === 0 ? (
+    <p class="empty">Ingen opskrifter fundet endnu.</p>
+  ) : (
+    <div class="grid">
+      {items.map(({ entry, number }) => <RecipeCard entry={entry} number={number} />)}
+    </div>
+  )
+}

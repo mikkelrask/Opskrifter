@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RecipeGrid from '../../components/RecipeGrid.astro';
+import { getCatalog, allTags } from '../../utils/catalog';
+
+export async function getStaticPaths() {
+  const catalog = await getCatalog();
+  const tags = allTags(catalog);
+  return tags.map((tag) => ({
+    params: { tag },
+    props: { items: catalog.filter(({ entry }) => entry.data.tags.includes(tag)) },
+  }));
+}
+
+const { tag } = Astro.params;
+const { items } = Astro.props;
+---
+
+<Layout title={`Kategori: ${tag}`} description={`Opskrifter mærket "${tag}".`} activeTag={tag}>
+  <main class="wrap">
+    <RecipeGrid items={items} />
+  </main>
+</Layout>

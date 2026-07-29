@@ -1,0 +1,71 @@
+---
+import { render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { getCatalog } from '../../utils/catalog';
+import { hasImage, placeholderEmoji } from '../../utils/images';
+import { renderInline } from '../../utils/markup';
+
+export async function getStaticPaths() {
+  const catalog = await getCatalog();
+  return catalog.map(({ entry, number }) => ({
+    params: { slug: entry.id },
+    props: { entry, number },
+  }));
+}
+
+const { entry, number } = Astro.props;
+const { title, description, tags, yield: recipeYield, image, ingredients, directions, notes } = entry.data;
+const { Content } = await render(entry);
+const photoExists = hasImage(image);
+---
+
+<Layout title={title} description={description}>
+  <main class="wrap">
+    <div class="recipe-header">
+      <a class="recipe-header__back" href="/">← Tilbage til kataloget</a>
+      <p class="recipe-header__no">No. {number}</p>
+      <h1>{title}</h1>
+      <p class="recipe-header__desc">{description}</p>
+      <div class="recipe-header__tags">
+        {tags.map((tag) => (
+          <a href={`/kategori/${tag}/`}><span>{tag}</span></a>
+        ))}
+      </div>
+      <div
+        class:list={['recipe-photo', { placeholder: !photoExists }]}
+        style={photoExists ? `background-image: url(/images/recipes/${image})` : undefined}
+      >
+        {!photoExists && placeholderEmoji(tags)}
+      </div>
+    </div>
+
+    <div class="recipe-intro">
+      <Content />
+    </div>
+
+    <div class="recipe-body">
+      <div>
+        <h2>Ingredienser</h2>
+        {recipeYield && <p class="recipe-body__yield">{recipeYield}</p>}
+        <ul class="ingredients">
+          {ingredients.map((item) => <li set:html={renderInline(item)} />)}
+        </ul>
+      </div>
+      <div>
+        <h2>Fremgangsmåde</h2>
+        <ol class="directions">
+          {directions.map((step) => <li set:html={renderInline(step)} />)}
+        </ol>
+      </div>
+    </div>
+
+    {notes.length > 0 && (
+      <div class="recipe-notes">
+        <h2>Noter</h2>
+        <ul class="notes">
+          {notes.map((note) => <li set:html={renderInline(note)} />)}
+        </ul>
+      </div>
+    )}
+  </main>
+</Layout>

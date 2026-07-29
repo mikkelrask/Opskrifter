@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { hasImage, placeholderEmoji } from '../utils/images';
+
+interface Props {
+  entry: CollectionEntry<'recipes'>;
+  number: string;
+}
+
+const { entry, number } = Astro.props;
+const { title, description, tags, yield: recipeYield, image, directions, ingredients } = entry.data;
+const photoExists = hasImage(image);
+const searchText = [title, description, ...tags, ...ingredients].join(' ').toLowerCase();
+---
+
+<a class="card" href={`/opskrift/${entry.id}/`} data-search={searchText}>
+  <span class="card__no">No. {number}</span>
+  <div
+    class:list={['card__photo', { placeholder: !photoExists }]}
+    style={photoExists ? `background-image: url(/images/recipes/${image})` : undefined}
+  >
+    {!photoExists && placeholderEmoji(tags)}
+  </div>
+  <div class="card__tags">
+    {tags.map((tag) => <span>{tag}</span>)}
+  </div>
+  <h2>{title}</h2>
+  <p>{description}</p>
+  <div class="card__meta">
+    <span>{recipeYield ?? '—'}</span>
+    <span>{directions.length} trin</span>
+  </div>
+</a>

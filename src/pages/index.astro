@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RecipeGrid from '../components/RecipeGrid.astro';
+import { getCatalog } from '../utils/catalog';
+
+const catalog = await getCatalog();
+---
+
+<Layout title="Forside" description="En samling af opskrifter, katalogiseret og klar til madlavning.">
+  <main class="wrap">
+    <RecipeGrid items={catalog} />
+  </main>
+</Layout>

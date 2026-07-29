@@ -1,0 +1,21 @@
+{
+  "name": "open-sauce",
+  "version": "1.0.0",
+  "description": "Et personligt opskriftsbibliotek bygget med Astro",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "astro build && wrangler pages deploy dist"
+  },
+  "dependencies": {
+    "astro": "^5.7.0"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true,
+    "esbuild@0.25.12": true,
+    "sharp@0.34.5": true
+  }
+}

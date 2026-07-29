@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RecipeGrid from '../../components/RecipeGrid.astro';
+import { getCatalog } from '../../utils/catalog';
+
+const catalog = await getCatalog();
+---
+
+<Layout title="Søg" description="Søg i kataloget efter titel, tag eller ingrediens.">
+  <main class="wrap">
+    <label class="search-box">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Søg efter titel, tag eller ingrediens…"
+        autocomplete="off"
+      />
+    </label>
+    <RecipeGrid items={catalog} />
+    <p id="search-empty" class="empty" hidden>Ingen opskrifter matcher din søgning.</p>
+  </main>
+</Layout>
+
+<script>
+  const input = document.getElementById('search-input') as HTMLInputElement;
+  const cards = document.querySelectorAll<HTMLElement>('.card');
+  const empty = document.getElementById('search-empty') as HTMLElement;
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const match = !q || (card.dataset.search ?? '').includes(q);
+      card.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    empty.hidden = visible !== 0;
+  });
+
+  input.focus();
+</script>

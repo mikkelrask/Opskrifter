@@ -1,0 +1,43 @@
+---
+import { getCatalog, allTags } from '../utils/catalog';
+
+interface Props {
+  activeTag?: string;
+}
+
+const { activeTag } = Astro.props;
+const catalog = await getCatalog();
+const tags = allTags(catalog);
+
+const PRIORITY = ['hovedret', 'forret', 'dessert', 'tilbehør', 'fisk', 'lam', 'oksekød', 'kylling', 'vegetar'];
+
+const primaryTags = PRIORITY.filter((tag) => tags.includes(tag));
+const restTags = tags.filter((tag) => !PRIORITY.includes(tag));
+---
+
+<header class="masthead">
+  <div class="wrap masthead__top">
+    <span>EST. 2026</span>
+    <span>{catalog.length} OPSKRIFTER I KATALOGET — <a href="/søg/">Søg</a></span>
+  </div>
+  <h1><a href="/">Open Sauce</a></h1>
+  <p class="masthead__sub">— open source opskrifter —</p>
+
+  <nav class="tags wrap">
+    <a href="/" class={!activeTag ? 'active' : ''}>Alle</a>
+    {primaryTags.map((tag) => (
+      <a href={`/kategori/${tag}/`} class={activeTag === tag ? 'active' : ''}>{tag}</a>
+    ))}
+  </nav>
+
+  {restTags.length > 0 && (
+    <details class="tags-more wrap">
+      <summary>Flere kategorier</summary>
+      <nav class="tags">
+        {restTags.map((tag) => (
+          <a href={`/kategori/${tag}/`} class={activeTag === tag ? 'active' : ''}>{tag}</a>
+        ))}
+      </nav>
+    </details>
+  )}
+</header>

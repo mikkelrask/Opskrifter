@@ -1,0 +1,348 @@
+---
+const HEADING_FONTS: [string, string][] = [
+  ['Libre Caslon Display', "'Libre Caslon Display', Georgia, 'Times New Roman', serif"],
+  ['Playfair Display', "'Playfair Display', Georgia, serif"],
+  ['Fraunces', "'Fraunces', Georgia, serif"],
+  ['DM Serif Display', "'DM Serif Display', Georgia, serif"],
+  ['Newsreader', "'Newsreader', Georgia, serif"],
+  ['Georgia (system)', "Georgia, 'Times New Roman', serif"],
+];
+
+const BODY_FONTS: [string, string][] = [
+  ['Public Sans', "'Public Sans', system-ui, -apple-system, sans-serif"],
+  ['Inter', "'Inter', system-ui, -apple-system, sans-serif"],
+  ['Work Sans', "'Work Sans', system-ui, -apple-system, sans-serif"],
+  ['Karla', "'Karla', system-ui, -apple-system, sans-serif"],
+  ['Source Sans 3', "'Source Sans 3', system-ui, -apple-system, sans-serif"],
+];
+
+const MONO_FONTS: [string, string][] = [
+  ['IBM Plex Mono', "'IBM Plex Mono', 'Courier New', monospace"],
+  ['Space Mono', "'Space Mono', 'Courier New', monospace"],
+  ['JetBrains Mono', "'JetBrains Mono', 'Courier New', monospace"],
+  ['Courier Prime', "'Courier Prime', 'Courier New', monospace"],
+];
+---
+
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Playfair+Display:wght@400;700&family=Fraunces:wght@400;600&family=DM+Serif+Display&family=Newsreader:wght@400;600&family=Public+Sans:wght@400;500;600&family=Inter:wght@400;500;600&family=Work+Sans:wght@400;500;600&family=Karla:wght@400;500;600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&family=Space+Mono&family=JetBrains+Mono&family=Courier+Prime&display=swap"
+/>
+
+<button id="godmode-toggle" type="button" aria-expanded="false">⚙ God Mode</button>
+
+<aside id="godmode-panel" aria-hidden="true">
+  <div class="godmode-head">
+    <strong>God Mode</strong>
+    <span>kun synlig i dev</span>
+  </div>
+
+  <div class="godmode-body">
+    <fieldset>
+      <legend>Farver</legend>
+      <label>Baggrund <input type="color" data-var="--color-bg" /></label>
+      <label>Overflade <input type="color" data-var="--color-surface" /></label>
+      <label>Tekst <input type="color" data-var="--color-text" /></label>
+      <label>Streger <input type="color" data-var="--color-line" /></label>
+      <label>Accent <input type="color" data-var="--color-accent" /></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Skrifttyper</legend>
+      <label>
+        Overskrift
+        <select data-var="--font-heading">
+          {HEADING_FONTS.map(([label, value]) => <option value={value}>{label}</option>)}
+        </select>
+      </label>
+      <label>
+        Brødtekst
+        <select data-var="--font-body">
+          {BODY_FONTS.map(([label, value]) => <option value={value}>{label}</option>)}
+        </select>
+      </label>
+      <label>
+        Mono / labels
+        <select data-var="--font-mono">
+          {MONO_FONTS.map(([label, value]) => <option value={value}>{label}</option>)}
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Layout</legend>
+      <label>
+        Hjørnerunding <span class="val" data-valfor="--radius"></span>
+        <input type="range" data-var="--radius" data-unit="px" min="0" max="24" step="1" />
+      </label>
+      <label>
+        Mellemrum <span class="val" data-valfor="--gap"></span>
+        <input type="range" data-var="--gap" data-unit="px" min="0" max="32" step="1" />
+      </label>
+      <label>
+        Skriftstørrelse <span class="val" data-valfor="--font-scale"></span>
+        <input type="range" data-var="--font-scale" data-unit="%" data-multiplier="100" min="85" max="125" step="1" />
+      </label>
+    </fieldset>
+  </div>
+
+  <div class="godmode-actions">
+    <button id="godmode-reset" type="button">Nulstil</button>
+    <button id="godmode-copy" type="button">Kopiér CSS</button>
+  </div>
+</aside>
+
+<style>
+  #godmode-toggle {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 9999;
+    font-family: 'Courier New', monospace;
+    font-size: 0.75rem;
+    background: #111;
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 0.6rem 0.9rem;
+    cursor: pointer;
+  }
+
+  #godmode-toggle:hover {
+    background: #1c1c1c;
+  }
+
+  #godmode-panel {
+    position: fixed;
+    right: 1rem;
+    bottom: 4rem;
+    z-index: 9999;
+    width: 280px;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+    background: #111;
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.75rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    transform: translateY(8px);
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 0.15s ease,
+      transform 0.15s ease;
+  }
+
+  #godmode-panel.open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .godmode-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #333;
+  }
+
+  .godmode-head span {
+    color: #888;
+    font-size: 0.65rem;
+  }
+
+  .godmode-body {
+    padding: 0.4rem 1rem 0.8rem;
+  }
+
+  fieldset {
+    border: none;
+    border-top: 1px dashed #333;
+    padding: 0.7rem 0 0.4rem;
+    margin: 0;
+  }
+
+  fieldset:first-child {
+    border-top: none;
+  }
+
+  legend {
+    padding: 0;
+    color: #4da6ff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.65rem;
+    margin-bottom: 0.4rem;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.3rem 0;
+    color: #ccc;
+  }
+
+  .val {
+    color: #888;
+    font-size: 0.65rem;
+    margin-left: auto;
+    margin-right: 0.4rem;
+  }
+
+  input[type='color'] {
+    width: 32px;
+    height: 22px;
+    padding: 0;
+    border: 1px solid #444;
+    border-radius: 3px;
+    background: none;
+  }
+
+  select {
+    background: #1a1a1a;
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.3rem;
+    max-width: 150px;
+  }
+
+  input[type='range'] {
+    width: 100px;
+  }
+
+  .godmode-actions {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem;
+    border-top: 1px solid #333;
+  }
+
+  .godmode-actions button {
+    flex: 1;
+    background: #1a1a1a;
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 0.4rem;
+    font-family: inherit;
+    font-size: 0.68rem;
+    cursor: pointer;
+  }
+
+  .godmode-actions button:hover {
+    background: #262626;
+  }
+</style>
+
+<script>
+  const STORAGE_KEY = 'godmode-theme-v1';
+  const VARS = [
+    '--color-bg',
+    '--color-surface',
+    '--color-text',
+    '--color-line',
+    '--color-accent',
+    '--font-heading',
+    '--font-body',
+    '--font-mono',
+    '--radius',
+    '--gap',
+    '--font-scale',
+  ] as const;
+
+  const root = document.documentElement;
+  const toggle = document.getElementById('godmode-toggle')!;
+  const panel = document.getElementById('godmode-panel')!;
+
+  const computed = getComputedStyle(root);
+  const defaults: Record<string, string> = {};
+  for (const v of VARS) defaults[v] = computed.getPropertyValue(v).trim();
+
+  let stored: Record<string, string> = {};
+  try {
+    stored = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '{}');
+  } catch {
+    stored = {};
+  }
+
+  function currentValue(v: string): string {
+    return stored[v] ?? defaults[v];
+  }
+
+  function applyAll() {
+    for (const v of VARS) root.style.setProperty(v, currentValue(v));
+  }
+
+  function syncInputs() {
+    document.querySelectorAll<HTMLInputElement | HTMLSelectElement>('[data-var]').forEach((el) => {
+      const v = el.dataset.var!;
+      const value = currentValue(v);
+      if (el instanceof HTMLInputElement && el.type === 'range') {
+        const mult = Number(el.dataset.multiplier ?? '1');
+        el.value = String(parseFloat(value) * mult);
+        updateValLabel(v, el);
+      } else {
+        el.value = value;
+      }
+    });
+  }
+
+  function updateValLabel(v: string, input: HTMLInputElement) {
+    const label = document.querySelector(`[data-valfor="${v}"]`);
+    if (label) label.textContent = `${input.value}${input.dataset.unit ?? ''}`;
+  }
+
+  function persist(v: string, value: string) {
+    stored[v] = value;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+    root.style.setProperty(v, value);
+  }
+
+  applyAll();
+  syncInputs();
+
+  document.querySelectorAll<HTMLInputElement | HTMLSelectElement>('[data-var]').forEach((el) => {
+    const v = el.dataset.var!;
+    el.addEventListener('input', () => {
+      if (el instanceof HTMLInputElement && el.type === 'range') {
+        const mult = Number(el.dataset.multiplier ?? '1');
+        const raw = Number(el.value) / mult;
+        updateValLabel(v, el);
+        persist(v, el.dataset.unit === 'px' ? `${raw}px` : String(raw));
+      } else {
+        persist(v, el.value);
+      }
+    });
+  });
+
+  toggle.addEventListener('click', () => {
+    const open = panel.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+    panel.setAttribute('aria-hidden', String(!open));
+  });
+
+  document.getElementById('godmode-reset')!.addEventListener('click', () => {
+    stored = {};
+    localStorage.removeItem(STORAGE_KEY);
+    for (const v of VARS) root.style.removeProperty(v);
+    syncInputs();
+  });
+
+  document.getElementById('godmode-copy')!.addEventListener('click', async (e) => {
+    const lines = VARS.map((v) => `  ${v}: ${currentValue(v)};`).join('\n');
+    const css = `:root {\n${lines}\n}`;
+    await navigator.clipboard.writeText(css);
+    const btn = e.currentTarget as HTMLButtonElement;
+    const original = btn.textContent;
+    btn.textContent = 'Kopieret!';
+    setTimeout(() => (btn.textContent = original), 1500);
+  });
+</script>
