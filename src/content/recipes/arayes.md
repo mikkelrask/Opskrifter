@@ -26,8 +26,8 @@ ingredients:
   - 2½ dl naturel yoghurt
   - 2 spsk tahini
   - 1 spsk citronsaft
-  - 1 fed hvidløg, fintrevet (til saucen)
-  - ½ tsk salt (til saucen)
+  - 1 fed hvidløg, fintrevet
+  - ½ tsk salt
 directions:
   - Riv løget på et rivejern med de grove huller direkte ned i en skål — saften skal med.
   - Tilsæt kødfars og resten af fyldet. Ælt godt sammen med hænderne.
@@ -40,10 +40,8 @@ directions:
   - Server arayes hele eller skåret i mindre stykker med tahiniyoghurt til.
 notes:
   - Lammefars er klassikeren, men oksefars fungerer lige så godt.
-  - Tynde pitabrød er nemmest at stege igennem; tykkere lommer virker også, men giv dem et minut eller to ekstra.
   - Har pitabrødet svært ved at åbne sig? Giv det 15-30 sekunder i mikroovnen, og kør så en smørkniv rundt i lommen for at løsne den.
   - Store libanesiske brød (~30 cm) virker også — smør kødet ud i brødet med en kniv, steg og skær i stykker. Tortillas eller andre fladbrød kan også bruges, lavet som quesadilla med fyld på den ene halvdel og foldet over.
-  - Kan samles på forhånd — fyldte pitabrød holder et par dage i køleskabet eller kan fryses og steges direkte fra frost.
   - 3 halve pitaer mætter en voksen med en salat til.
 ---
 Libanesiske arayes: pitabrød proppet med rå, krydret kødfars og stegt på panden, til ydersiden er sprød og gylden. Kødet steges inde i brødet, så safterne trækker ud i pitaen — tænk quesadilla med mellemøstlige krydderier. Med den luftige tahiniyoghurt til er det ren fest.
