@@ -24,6 +24,6 @@ directions:
   - Tilsæt fløden, og lad saucen simre i 3-5 minutter, og du smager til med salt, peber og citron.
   - Vend din pasta i saucen, med en smule af kogevandet, og bland herligheden i til saucen er blæd og sætter sig på pasten, før persillen vendes i.
 notes:
-- Det er vigtigt at få duppet muslignerne helt tørre, ellers kan de dampe, og ikke få den ønskede stegeflade.
-- Brug ikke toiletpapir til at duppe musligner tørre
+- Det er vigtigt at få duppet muslingerne helt tørre, ellers kan de dampe, og ikke få den ønskede stegeflade.
+- Brug ikke toiletpapir til at duppe muslingerne tørre
 ---
